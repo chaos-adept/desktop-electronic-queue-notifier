@@ -1,0 +1,15 @@
+body {
+  padding: 1rem;
+}
+.topQuestion {
+  display: inline-block;
+  background-color: rgba(255, 55, 200, .4);
+  border: double 0.3rem;
+  border-radius: 4rem;
+  font-size: 3rem;
+  padding: 0.3rem;
+  min-width: 4rem;
+  text-align: center;
+  color: slateblue;
+  font-weight: bold;
+}
