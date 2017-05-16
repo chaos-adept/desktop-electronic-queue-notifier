@@ -1,6 +1,6 @@
-var electron = require('electron')
-var url = require('url')
-var path = require('path')
+var electron = require('electron');
+var url = require('url');
+var path = require('path');
 
 electron.app.once('ready', function () {
   //var mainWindow = new electron.BrowserWindow({width: 200, height: 200, resizable:false,  frame: true, transparent: true, backgroundColor: '#80FFFFFF'});
@@ -25,14 +25,14 @@ electron.app.once('ready', function () {
     //backgroundColor: "#FFFFFF",
     // Don't show the window until it ready, this prevents any white flickering
     show: false
-  })
+  });
 
   // Load a URL in the window to the local index.html path
   window.loadURL(url.format({
-    pathname: path.join(__dirname, 'index.html'),
+    pathname: path.join(__dirname, '/lib/index.html'),
     protocol: 'file:',
     slashes: true
-  }))
+  }));
 
   // Show window when page is ready
   window.once('ready-to-show', function () {
@@ -41,4 +41,4 @@ electron.app.once('ready', function () {
   })
   
   
-})
+});
