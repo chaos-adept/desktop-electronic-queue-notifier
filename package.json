@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "electron": "^1.6.7"
+    "electron": "^1.6.7",
+    "socket.io-client": "^2.0.1"
   },
   "devDependencies": {},
   "scripts": {
