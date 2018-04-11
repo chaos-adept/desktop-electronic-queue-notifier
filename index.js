@@ -7,16 +7,17 @@ electron.app.once('ready', function () {
   //mainWindow.setIgnoreMouseEvents(true);
   //mainWindow.setAlwaysOnTop(true);
   //mainWindow.loadURL('file://' + __dirname + '/index.html');
-
+  var screenElectron = electron.screen;
+  var mainScreen = screenElectron.getPrimaryDisplay();
 
   // Create a new window
   window = new electron.BrowserWindow({
 	x:0,
 	y:0,	
     // Set the initial width to 800px
-    width: 800,
+    width: mainScreen.workAreaSize.width,
     // Set the initial height to 600px
-    height: 600,
+    height: mainScreen.workAreaSize.height,
     // Set the default background color of the window to match the CSS
     // background color of the page, this prevents any white flickering
 	transparent: true,
