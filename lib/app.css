@@ -24,6 +24,20 @@ body {
   font-weight: bold;
   box-shadow: 0 0 1rem rgba(141, 36, 105, 0.93);
 }
+
+.topTicketTicks {
+  display: inline-block;
+  background-color: rgba(0, 183, 255, 0.5);
+  border: none 0.3rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  padding: 0.2rem;
+  min-width: 3rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 0 1rem rgba(0, 60, 141, 0.93);
+}
 .rates-placeholder {
   display: inline-block;
   float: right;
@@ -35,14 +49,14 @@ body {
 }
 .rate-item {
   display: inline-block;
-  background-color: rgba(139, 219, 255, 0.6);
+  background-color: rgba(106, 172, 119, 0.4);
   border: none 0.3rem;
   border-radius: 1rem;
   font-size: 2rem;
   padding: 0.2rem;
   min-width: 2rem;
   text-align: center;
-  color: #ffefeb;
+  color: #fcfeee;
   font-weight: bold;
-  box-shadow: 0 0 1rem rgba(40, 121, 141, 0.93);
+  box-shadow: 0 0 1rem rgba(108, 141, 130, 0.93);
 }
